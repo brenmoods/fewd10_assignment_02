@@ -99,7 +99,6 @@ small {
   color: #ffffff;
   font-size: 9px;
   font-style: 600;
-  margin-right: 0px;
 }
 
 body {
@@ -128,7 +127,7 @@ ul {
 /*******************************************/
 
 /* Center the container */
-#container {
+#container {  
   width: 100%;
   margin: auto;
   height: 400px;
@@ -151,11 +150,13 @@ section {
 }
 
 header {
+    color: #ffffff;
 }
 
 footer {
   text-align: center;
   background: #121212;
+  padding-bottom: 40px;
 }
 
 img {
