@@ -5,10 +5,7 @@ Author: Your Name
 Developer @GA in NYC
 */
 
-<<<<<<< HEAD
-=======
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,300,300italic,400italic,600,600italic,700,700italic,800italic>);
->>>>>>> origin/master
 
 /******************************************
 /* SETUP
@@ -45,23 +42,11 @@ Developer @GA in NYC
   padding: 0 10px 10px 0; /* note the padding around a left floated image */
 }
 
-<<<<<<< HEAD
-=======
 
->>>>>>> origin/master
 /******************************************
 /* BASE STYLES
 /*******************************************/
 
-<<<<<<< HEAD
-body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
-=======
 h1 {
   font-family: "Open Sans", sans-serif;
   font-size: 24px;
@@ -135,7 +120,6 @@ li {
 
 ul {
   list-style: disc;
->>>>>>> origin/master
 }
 
 
@@ -147,18 +131,6 @@ ul {
 #container {
   width: 100%;
   margin: auto;
-<<<<<<< HEAD
-  height: 500px;
-
-}
-
-header {
-
-}
-
-footer {
-
-=======
   height: 400px;
   background: url(../images/header_bg.jpg) no-repeat center top;
   background-size: cover;
@@ -193,16 +165,12 @@ img {
   width: auto;
   height: auto;
   padding: 40px 10px 40px 0;
->>>>>>> origin/master
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
-<<<<<<< HEAD
-
-=======
 .button {
   font-size: 12px;
   display: block;
@@ -257,6 +225,5 @@ img {
   font-size: 24px;
   padding-top: 30px;
 }
->>>>>>> origin/master
 
 
