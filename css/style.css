@@ -137,7 +137,7 @@ ul {
 
 #container02 {
   width: 100%;
-  padding: 40px 100px 110px 100px;
+  padding: 40px 60px 110px 60px;
   height: 210px;
   background: url(../images/testimonial_bg.jpg) no-repeat center top;
   background-size: cover;
@@ -151,6 +151,7 @@ section {
 
 header {
     color: #ffffff;
+    padding-bottom: 0 50px 0 50px;
 }
 
 footer {
