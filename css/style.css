@@ -137,7 +137,7 @@ ul {
 
 #container02 {
   width: 100%;
-  padding: 40px 60px 110px 60px;
+  padding: 40px 50px 110px 50px;
   height: 210px;
   background: url(../images/testimonial_bg.jpg) no-repeat center top;
   background-size: cover;
@@ -205,7 +205,7 @@ img {
 
 .benefits {
   background: #f0efef;
-  padding: 40px 150px 40px 50px;
+  padding: 40px 100px 40px 50px;
   width: 100%;
   height: auto;
 }
@@ -226,6 +226,10 @@ img {
   color: #f9e42e;
   font-size: 24px;
   padding-top: 30px;
+}
+
+.padding {
+  padding: 0px 50px 0px 50px;
 }
 
 
