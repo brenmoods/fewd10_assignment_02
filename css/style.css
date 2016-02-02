@@ -71,13 +71,14 @@ h3 {
   line-height: 2em;
   }
 
-h4 {
+blockquote {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
+  text-align: center;
   font-weight: 300;
   font-style: italic;
-  text-align: center;
   color: #ffffff;
+  padding: 0px 60px 0px 60px;
   }
 
 p {
@@ -102,7 +103,7 @@ small {
 }
 
 body {
-  background: #121212;
+  background: #ffffff;
   font-size: 12px;
   line-height: 1.4;
   font-family: Helvetica, Arial, sans-serif;
@@ -128,7 +129,6 @@ ul {
 
 /* Center the container */
 #container {  
-  width: 100%;
   margin: auto;
   height: 400px;
   background: url(../images/header_bg.jpg) no-repeat center top;
@@ -136,16 +136,15 @@ ul {
 }
 
 #container02 {
-  width: 100%;
-  padding: 40px 50px 110px 50px;
+  max-width: 100%;
+  padding: 30px 0px 110px 0px;
   height: 210px;
   background: url(../images/testimonial_bg.jpg) no-repeat center top;
   background-size: cover;
-  opacity: 0.80;
 }
 
 section {
-  width: 100%;
+  max-width: 100%;
   background: #ffffff;
 }
 
@@ -206,8 +205,12 @@ img {
 .benefits {
   background: #f0efef;
   padding: 40px 100px 40px 50px;
-  width: 100%;
+  max-width: 100%;
   height: auto;
+}
+
+.max-width {
+  width: 50%;
 }
 
 .background {
