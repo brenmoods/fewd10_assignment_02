@@ -71,12 +71,14 @@ h3 {
   line-height: 2em;
   }
 
-h4 {
+blockquote {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
+  margin: 0 auto;
+  width: 60%;
+  text-align: center;
   font-weight: 300;
   font-style: italic;
-  text-align: center;
   color: #ffffff;
   }
 
@@ -99,14 +101,13 @@ small {
   color: #ffffff;
   font-size: 9px;
   font-style: 600;
-  margin-right: 0px;
 }
 
 body {
   background: #121212;
   font-size: 12px;
   line-height: 1.4;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 li {
@@ -128,8 +129,7 @@ ul {
 /*******************************************/
 
 /* Center the container */
-#container {
-  width: 100%;
+#container {  
   margin: auto;
   height: 400px;
   background: url(../images/header_bg.jpg) no-repeat center top;
@@ -137,25 +137,27 @@ ul {
 }
 
 #container02 {
-  width: 100%;
-  padding: 40px 100px 110px 100px;
+  max-width: 100%;
+  padding: 30px 0 0 0;
   height: 210px;
   background: url(../images/testimonial_bg.jpg) no-repeat center top;
   background-size: cover;
-  opacity: 0.80;
 }
 
 section {
-  width: 100%;
+  max-width: 100%;
   background: #ffffff;
 }
 
 header {
+  color: #ffffff;
+  padding-bottom: 0 50px 0 50px;
 }
 
 footer {
   text-align: center;
   background: #121212;
+  padding: 0 0 60px 0;
 }
 
 img {
@@ -163,7 +165,6 @@ img {
   max-width:230px;
   max-height:100px;
   width: auto;
-  height: auto;
   padding: 40px 10px 40px 0;
 }
 
@@ -203,9 +204,13 @@ img {
 
 .benefits {
   background: #f0efef;
-  padding: 40px 150px 40px 50px;
-  width: 100%;
+  padding: 40px 100px 40px 50px;
+  max-width: 100%;
   height: auto;
+}
+
+.max-width {
+  width: 50%;
 }
 
 .background {
@@ -224,6 +229,10 @@ img {
   color: #f9e42e;
   font-size: 24px;
   padding-top: 30px;
+}
+
+.padding {
+  padding: 0px 50px 0px 50px;
 }
 
 
