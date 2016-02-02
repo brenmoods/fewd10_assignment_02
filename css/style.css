@@ -74,6 +74,11 @@ h3 {
 blockquote {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
+<<<<<<< HEAD
+=======
+  margin: 0 auto;
+  width: 60%;
+>>>>>>> origin/master
   text-align: center;
   font-weight: 300;
   font-style: italic;
@@ -106,7 +111,7 @@ body {
   background: #ffffff;
   font-size: 12px;
   line-height: 1.4;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 li {
@@ -129,6 +134,13 @@ ul {
 
 /* Center the container */
 #container {  
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+  width: 100%;
+>>>>>>> origin/master
+>>>>>>> origin/master
   margin: auto;
   height: 400px;
   background: url(../images/header_bg.jpg) no-repeat center top;
@@ -136,8 +148,18 @@ ul {
 }
 
 #container02 {
+<<<<<<< HEAD
   max-width: 100%;
   padding: 30px 0px 110px 0px;
+=======
+<<<<<<< HEAD
+  max-width: 100%;
+  padding: 30px 0 0 0;
+=======
+  width: 100%;
+  padding: 40px 60px 110px 60px;
+>>>>>>> origin/master
+>>>>>>> origin/master
   height: 210px;
   background: url(../images/testimonial_bg.jpg) no-repeat center top;
   background-size: cover;
@@ -149,14 +171,23 @@ section {
 }
 
 header {
+<<<<<<< HEAD
+  color: #ffffff;
+  padding-bottom: 0 50px 0 50px;
+=======
     color: #ffffff;
     padding-bottom: 0 50px 0 50px;
+>>>>>>> origin/master
 }
 
 footer {
   text-align: center;
   background: #121212;
+<<<<<<< HEAD
+  padding: 0 0 60px 0;
+=======
   padding-bottom: 40px;
+>>>>>>> origin/master
 }
 
 img {
@@ -164,7 +195,6 @@ img {
   max-width:230px;
   max-height:100px;
   width: auto;
-  height: auto;
   padding: 40px 10px 40px 0;
 }
 
